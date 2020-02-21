@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b1cf9a3-9f30-4e65-aab7-04cbaa76a906" name="Default Changelist" comment="" />
+    <list default="true" id="3b1cf9a3-9f30-4e65-aab7-04cbaa76a906" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/http-request-sync-async/net/branchandbound/linkvalidator/LinkValidatorAsync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/http-request-sync-async/net/branchandbound/linkvalidator/LinkValidatorSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/http-request-sync-async/net/branchandbound/linkvalidator/WebSocketExample$EchoListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/http-request-sync-async/net/branchandbound/linkvalidator/WebSocketExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/branchandbound/linkvalidator/LinkValidatorAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpclient/demo/LinkValidatorAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/branchandbound/linkvalidator/LinkValidatorSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpclient/demo/LinkValidatorSync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/branchandbound/linkvalidator/WebSocketExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/httpclient/demo/WebSocketExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y525TrkTs9STRWSMBc3XfKzpjv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -233,7 +243,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554488101970</updated>
       <workItem from="1582217952907" duration="11027000" />
-      <workItem from="1582286934950" duration="4031000" />
+      <workItem from="1582286934950" duration="4314000" />
     </task>
     <servers />
   </component>
@@ -258,26 +268,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="260" key="FileChooserDialogImpl/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@0.0.1920.1040" timestamp="1582231675871" />
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom" timestamp="1582291387386">
+    <state width="1877" height="201" key="GridCell.Tab.0.bottom" timestamp="1582291448535">
       <screen x="1920" y="-143" width="1920" height="1160" />
     </state>
     <state width="1877" height="153" key="GridCell.Tab.0.bottom/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@0.0.1920.1040" timestamp="1582290398160" />
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@1920.-143.1920.1160" timestamp="1582291387386" />
-    <state width="1877" height="201" key="GridCell.Tab.0.center" timestamp="1582291387386">
+    <state width="1877" height="201" key="GridCell.Tab.0.bottom/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@1920.-143.1920.1160" timestamp="1582291448535" />
+    <state width="1877" height="201" key="GridCell.Tab.0.center" timestamp="1582291448534">
       <screen x="1920" y="-143" width="1920" height="1160" />
     </state>
     <state width="1877" height="153" key="GridCell.Tab.0.center/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@0.0.1920.1040" timestamp="1582290398160" />
-    <state width="1877" height="201" key="GridCell.Tab.0.center/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@1920.-143.1920.1160" timestamp="1582291387386" />
-    <state width="1877" height="201" key="GridCell.Tab.0.left" timestamp="1582291387386">
+    <state width="1877" height="201" key="GridCell.Tab.0.center/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@1920.-143.1920.1160" timestamp="1582291448534" />
+    <state width="1877" height="201" key="GridCell.Tab.0.left" timestamp="1582291448534">
       <screen x="1920" y="-143" width="1920" height="1160" />
     </state>
     <state width="1877" height="153" key="GridCell.Tab.0.left/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@0.0.1920.1040" timestamp="1582290398160" />
-    <state width="1877" height="201" key="GridCell.Tab.0.left/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@1920.-143.1920.1160" timestamp="1582291387386" />
-    <state width="1877" height="201" key="GridCell.Tab.0.right" timestamp="1582291387386">
+    <state width="1877" height="201" key="GridCell.Tab.0.left/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@1920.-143.1920.1160" timestamp="1582291448534" />
+    <state width="1877" height="201" key="GridCell.Tab.0.right" timestamp="1582291448535">
       <screen x="1920" y="-143" width="1920" height="1160" />
     </state>
     <state width="1877" height="153" key="GridCell.Tab.0.right/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@0.0.1920.1040" timestamp="1582290398160" />
-    <state width="1877" height="201" key="GridCell.Tab.0.right/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@1920.-143.1920.1160" timestamp="1582291387386" />
+    <state width="1877" height="201" key="GridCell.Tab.0.right/-1366.296.1366.728/0.0.1920.1040/1920.-143.1920.1160@1920.-143.1920.1160" timestamp="1582291448535" />
     <state x="440" y="93" key="SettingsEditor" timestamp="1582226696065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

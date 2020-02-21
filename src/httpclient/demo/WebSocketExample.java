@@ -20,15 +20,15 @@ public class WebSocketExample {
 
         weFuture.thenAccept(webSocket -> {
             webSocket.request(msgcount);
-            for (int i = 0 ; i < msgcount ; i++){
-                webSocket.sendText("Message : " + i , true);
+            for (int i = 0; i < msgcount; i++) {
+                webSocket.sendText("Message : " + i, true);
             }
         });
 
         recieveLatch.await();
     }
 
-    static class EchoListener implements WebSocket.Listener{
+    static class EchoListener implements WebSocket.Listener {
 
         CountDownLatch recieveLatch;
 

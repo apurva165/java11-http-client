@@ -22,13 +22,13 @@ public class LinkValidatorAsync {
                 .followRedirects(HttpClient.Redirect.NORMAL)
                 .build();
 
-       var futures =  Files.lines(Path.of("urls.txt"))
+        var futures = Files.lines(Path.of("urls.txt"))
                 .map(LinkValidatorAsync::validateLink)
                 .collect(Collectors.toList());
 
-       futures.stream()
-               .map(CompletableFuture::join)
-               .forEach(System.out::println);
+        futures.stream()
+                .map(CompletableFuture::join)
+                .forEach(System.out::println);
     }
 
     private static CompletableFuture<String> validateLink(String link) {
@@ -38,7 +38,7 @@ public class LinkValidatorAsync {
                 .build();
         return client.sendAsync(request, HttpResponse.BodyHandlers.discarding())
                 .thenApply(LinkValidatorAsync::responseToString)
-                .exceptionally(e -> String.format("%s => %s" , link, false));
+                .exceptionally(e -> String.format("%s => %s", link, false));
     }
 
     private static String responseToString(HttpResponse<Void> response) {
