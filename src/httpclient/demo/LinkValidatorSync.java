@@ -1,4 +1,4 @@
-package net.branchandbound.linkvalidator;
+package httpclient.demo;
 
 import java.io.IOException;
 import java.net.URI;
