@@ -1,0 +1,10 @@
+https://httpstat.us/200?sleep=1000
+https://pluralsight.com
+https://httpstat.us/300?sleep=1000
+https://www.pluralsight.com
+https://httpstat.us/400?sleep=1000
+https://www.pluralsight.com
+https://httpstat.us/500?sleep=1000
+https://www.pluralsight.com
+https://httpstat.us/200?sleep=1000
+https://www.pluralsight.com
